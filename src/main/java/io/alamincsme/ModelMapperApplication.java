@@ -1,4 +1,4 @@
-package io.alamincsme.modelmapper;
+package io.alamincsme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class ModelMapperApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ModelMapperApplication.class, args);
+        System.out.println("Hellow bangladesh");
     }
 
 }
